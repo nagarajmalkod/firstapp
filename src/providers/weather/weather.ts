@@ -22,5 +22,4 @@ export class WeatherProvider {
     return this.http.get(this.url+'/'+state+'/'+city+'.json')
       .map(res => res.json());
   }
-
 }
